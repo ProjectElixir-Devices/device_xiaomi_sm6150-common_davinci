@@ -23,6 +23,7 @@
 /sys/devices/platform/soc/soc:qcom,dsi-display/fod_ui                u:object_r:vendor_sysfs_fod:s0
 /sys/devices/platform/soc/soc:qcom,dsi-display/hbm                   u:object_r:sysfs_hbm:s0
 /sys/devices/platform/soc/soc:qcom,dsi-display/doze_mode             u:object_r:sysfs_doze:s0
+/sys/devices/platform/soc/soc:qcom,dsi-display/anti_flicker      u:object_r:vendor_sysfs_dc_dim:s0
 
 # Dolby
 /data/vendor/dolby(/.*)?                                                               u:object_r:vendor_data_file:s0
