@@ -20,4 +20,8 @@
         <item>org.lineageos.aperture</item>
         <item>org.lineageos.aperture.dev</item>
     </string-array>
+
+    <!-- Defines the sysfs attribute path used by the device
+         to enable/disable DC dimming. -->
+    <string name="config_deviceDcDimmingSysfsNode">/sys/devices/platform/soc/soc:qcom,dsi-display/anti_flicker</string>
 </resources>
